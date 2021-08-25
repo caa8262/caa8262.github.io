@@ -5,7 +5,7 @@
     <title> Christian's amazing website</title>
     <style>
       body {
-          background: rgb(125, 198, 205);
+          background: rgb(0, 0, 0);
           color: rgb(45, 45, 45);
           padding: 10px;
           font-family: arial;
@@ -52,13 +52,13 @@
       }
       .sidebar-img {
           width: 200px;
+          border:4px rgb(239, 80, 41) double;
       }
       .content {
           flex: 1;
           padding: 15px;
       }
       #interests {
-          border: 4px silver ridge;
           padding: 8px;
       }
       h2, h3 {
@@ -68,38 +68,46 @@
 </head>
  
 <body>
-<div>
-<nav>
-   <div id="all-contents">
-      <header>Christian's Glorious Website</header>
-            <ul>
-                <li><a href="index.html">Home</a>
-                </li>
-                <li><a href="portfolio.html">Portfolio</a>
+   <div>
+
+      <div id="all-contents">
+         <nav>
+            <h1>Christian's Glorious Website</h1>
+            <ul id="nav-ul">
+               <li class="nav-li">
+                  <a href="index.html">Home</a> 
+               </li>
+                <li class="nav-li">
+                   <a href="portfolio.html">Portfolio</a>
                 </li>
             </ul>      
-</nav>
-     <main>
-     
-      <div>
+         </nav>
+
+         <main>
+      <!--sidebar section-->
+            <div class="sidebar">
+               <img class="sidebar-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcV0RPrveExIC_tvYXNRN9Yob4b9S_AahflT9npY7zXdpys1aC7NA379I_tpOZZZsvsdQDriXtOlSEWscdw:https://pbs.twimg.com/profile_images/1382962798720815109/9TuWdaI6.jpg&usqp=CAU">
+            </div>
+
+      <div class="content">
       <h2>Christian Acosta</h2>
       <p>Student at belle chasse high school</p>
 <!--interests section-->
+<div id="interests">
+    <h3>Interests</h3>
+    <ul> 
+       <li>games</li>
+       <li>ice cream</li>
+       <li>pizza</li>
+       <li>cookies</li>
+     </ul>
+  </div>
       </div>
 
-   <div>
-      <h3>interests</h3>
-      <ul> 
-         <li>games</li>
-         <li>Ice cream</li>
-         <li>burger</li>
-      </ul>
-      <!--sidebar section-->
-   </div>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjcV0RPrveExIC_tvYXNRN9Yob4b9S_AahflT9npY7zXdpys1aC7NA379I_tpOZZZsvsdQDriXtOlSEWscdw:https://pbs.twimg.com/profile_images/1382962798720815109/9TuWdaI6.jpg&usqp=CAU">
-      </div>
+     
 
-     </main>
+
+         </main>
   </div>
 </body>
 </html>
