@@ -49,15 +49,15 @@ var init = function (window) {
         */
         function update() {
             // TODO 4 : Update the circle's position //
-           for (var j = 0; j , 99; j++){
+            for (var j = 0; j < 99; j++){
             physikz.updatePosition(circles[j]);
            }
         
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-            for (var k = 0; k < 99; k++){}
+            for (var k = 0; k < 99; k++){
             game.checkCirclePosition(circles[k]);
-        }
+             }
 
             // TODO 9 : Iterate over the array
            
